@@ -8,6 +8,15 @@ body {
     background: #f1f1f1;
 }
 
+p {
+	font-family: Arial;
+	font-size: px;
+	font-weight: bold;
+	text-indent: 50px;
+	font-style: italic;
+	line-height: 60px;
+}
+
 /* Заголовок / Название Блога */
 .header {
     padding: 30px;
@@ -17,6 +26,12 @@ body {
 
 .header h1 {
     font-size: 50px;
+}
+
+/* Логотип на главную страницу */
+.navbar-brand {
+	width: 100px;
+	float: left;
 }
 
 /* Стиль верхней панели навигации */
@@ -58,7 +73,7 @@ body {
 
 /* Поддельные изображения */
 .fakeimg {
-    background-color: #00FA9A;
+    background-color: #ADFF2F;
     width: 100%;
     padding: 20px;
 }
